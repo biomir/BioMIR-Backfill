@@ -1,0 +1,28 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Personal health data — NEVER COMMIT
+*.xml
+*.xml.zip
+*export.zip
+*health*.csv
+*Health*.csv
+*Biometrics*.csv
+*BioMIR_HK_Nutrition*.csv
+private-data/
+validation-inputs/
+
+# Audit outputs may contain personal health information
+audit-output/

@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* BioMIRBackfillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* BioMIRBackfillApp.swift */; };
+		A10000000000000000000002 /* ImportFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ImportFlowView.swift */; };
+		A10000000000000000000003 /* ArchitectureBoundaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* ArchitectureBoundaryTests.swift */; };
+		A10000000000000000000004 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* HealthKit.framework */; };
+		C10000000000000000000001 /* CSVModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* CSVModels.swift */; };
+		C10000000000000000000002 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000002 /* CSVParser.swift */; };
+		C10000000000000000000003 /* SourceDocumentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000003 /* SourceDocumentService.swift */; };
+		C10000000000000000000004 /* SourceFingerprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000004 /* SourceFingerprint.swift */; };
+		C10000000000000000000005 /* CSVParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000005 /* CSVParserTests.swift */; };
+		C10000000000000000000006 /* SourceFingerprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000006 /* SourceFingerprintTests.swift */; };
+		C10000000000000000000007 /* CalendarIntervalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000007 /* CalendarIntervalTests.swift */; };
+		D10000000000000000000001 /* MappingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000001 /* MappingModels.swift */; };
+		D10000000000000000000002 /* NutritionMappingRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000002 /* NutritionMappingRegistry.swift */; };
+		D10000000000000000000003 /* MappingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000003 /* MappingEngine.swift */; };
+		D10000000000000000000004 /* MappingEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000004 /* MappingEngineTests.swift */; };
+		D10000000000000000000005 /* HealthKitNutritionIdentifierCompatibilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000005 /* HealthKitNutritionIdentifierCompatibilityTests.swift */; };
+		E10000000000000000000001 /* HealthAuthorizationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20000000000000000000001 /* HealthAuthorizationState.swift */; };
+		E10000000000000000000002 /* HealthStoreGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20000000000000000000002 /* HealthStoreGateway.swift */; };
+		E10000000000000000000003 /* LiveHealthStoreGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20000000000000000000003 /* LiveHealthStoreGateway.swift */; };
+		E10000000000000000000004 /* HealthAuthorizationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20000000000000000000004 /* HealthAuthorizationStateTests.swift */; };
+		E10000000000000000000005 /* HealthStoreGatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20000000000000000000005 /* HealthStoreGatewayTests.swift */; };
+		F10000000000000000000001 /* ImportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000001 /* ImportModels.swift */; };
+		F10000000000000000000002 /* PreflightEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000002 /* PreflightEngine.swift */; };
+		F10000000000000000000003 /* ImportManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000003 /* ImportManifest.swift */; };
+		F10000000000000000000004 /* PreflightEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000004 /* PreflightEngineTests.swift */; };
+		G10000000000000000000001 /* ProvenanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000001 /* ProvenanceService.swift */; };
+		G10000000000000000000002 /* AuditLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000002 /* AuditLedger.swift */; };
+		G10000000000000000000003 /* ImportJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000003 /* ImportJournal.swift */; };
+		G10000000000000000000004 /* ImportCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000004 /* ImportCoordinator.swift */; };
+		G10000000000000000000005 /* AuditLedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000005 /* AuditLedgerTests.swift */; };
+		G10000000000000000000006 /* ImportCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000006 /* ImportCoordinatorTests.swift */; };
+		H10000000000000000000001 /* VerificationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = H20000000000000000000001 /* VerificationModels.swift */; };
+		H10000000000000000000002 /* VerificationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = H20000000000000000000002 /* VerificationEngine.swift */; };
+		H10000000000000000000003 /* AuditExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = H20000000000000000000003 /* AuditExporter.swift */; };
+		H10000000000000000000004 /* VerificationEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = H20000000000000000000004 /* VerificationEngineTests.swift */; };
+		I10000000000000000000001 /* ImportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = I20000000000000000000001 /* ImportViewModel.swift */; };
+		I10000000000000000000002 /* ImportViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = I20000000000000000000002 /* ImportViewModelTests.swift */; };
+		J10000000000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = J20000000000000000000001 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A70000000000000000000001;
+			remoteInfo = BioMIRBackfill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* BioMIRBackfillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioMIRBackfillApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ImportFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFlowView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000004 /* BioMIRBackfill.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BioMIRBackfill.entitlements; sourceTree = "<group>"; };
+		A20000000000000000000005 /* ArchitectureBoundaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureBoundaryTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* BioMIRBackfill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioMIRBackfill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000007 /* BioMIRBackfillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioMIRBackfillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000008 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C20000000000000000000001 /* CSVModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVModels.swift; sourceTree = "<group>"; };
+		C20000000000000000000002 /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		C20000000000000000000003 /* SourceDocumentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceDocumentService.swift; sourceTree = "<group>"; };
+		C20000000000000000000004 /* SourceFingerprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceFingerprint.swift; sourceTree = "<group>"; };
+		C20000000000000000000005 /* CSVParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParserTests.swift; sourceTree = "<group>"; };
+		C20000000000000000000006 /* SourceFingerprintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceFingerprintTests.swift; sourceTree = "<group>"; };
+		C20000000000000000000007 /* CalendarIntervalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarIntervalTests.swift; sourceTree = "<group>"; };
+		D20000000000000000000001 /* MappingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingModels.swift; sourceTree = "<group>"; };
+		D20000000000000000000002 /* NutritionMappingRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionMappingRegistry.swift; sourceTree = "<group>"; };
+		D20000000000000000000003 /* MappingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingEngine.swift; sourceTree = "<group>"; };
+		D20000000000000000000004 /* MappingEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingEngineTests.swift; sourceTree = "<group>"; };
+		D20000000000000000000005 /* HealthKitNutritionIdentifierCompatibilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitNutritionIdentifierCompatibilityTests.swift; sourceTree = "<group>"; };
+		E20000000000000000000001 /* HealthAuthorizationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAuthorizationState.swift; sourceTree = "<group>"; };
+		E20000000000000000000002 /* HealthStoreGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreGateway.swift; sourceTree = "<group>"; };
+		E20000000000000000000003 /* LiveHealthStoreGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveHealthStoreGateway.swift; sourceTree = "<group>"; };
+		E20000000000000000000004 /* HealthAuthorizationStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAuthorizationStateTests.swift; sourceTree = "<group>"; };
+		E20000000000000000000005 /* HealthStoreGatewayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreGatewayTests.swift; sourceTree = "<group>"; };
+		F20000000000000000000001 /* ImportModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportModels.swift; sourceTree = "<group>"; };
+		F20000000000000000000002 /* PreflightEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreflightEngine.swift; sourceTree = "<group>"; };
+		F20000000000000000000003 /* ImportManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportManifest.swift; sourceTree = "<group>"; };
+		F20000000000000000000004 /* PreflightEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreflightEngineTests.swift; sourceTree = "<group>"; };
+		G20000000000000000000001 /* ProvenanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvenanceService.swift; sourceTree = "<group>"; };
+		G20000000000000000000002 /* AuditLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditLedger.swift; sourceTree = "<group>"; };
+		G20000000000000000000003 /* ImportJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportJournal.swift; sourceTree = "<group>"; };
+		G20000000000000000000004 /* ImportCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCoordinator.swift; sourceTree = "<group>"; };
+		G20000000000000000000005 /* AuditLedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditLedgerTests.swift; sourceTree = "<group>"; };
+		G20000000000000000000006 /* ImportCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCoordinatorTests.swift; sourceTree = "<group>"; };
+		H20000000000000000000001 /* VerificationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModels.swift; sourceTree = "<group>"; };
+		H20000000000000000000002 /* VerificationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationEngine.swift; sourceTree = "<group>"; };
+		H20000000000000000000003 /* AuditExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditExporter.swift; sourceTree = "<group>"; };
+		H20000000000000000000004 /* VerificationEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationEngineTests.swift; sourceTree = "<group>"; };
+		I20000000000000000000001 /* ImportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewModel.swift; sourceTree = "<group>"; };
+		I20000000000000000000002 /* ImportViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewModelTests.swift; sourceTree = "<group>"; };
+		J20000000000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000004 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000000000000000000002 /* BioMIRBackfill */,
+				A50000000000000000000005 /* BioMIRBackfillTests */,
+				A50000000000000000000006 /* Frameworks */,
+				A50000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000000000000000000002 /* BioMIRBackfill */ = {
+			isa = PBXGroup;
+			children = (
+				A50000000000000000000003 /* App */,
+				C50000000000000000000001 /* Core */,
+				A50000000000000000000004 /* Supporting */,
+			);
+			path = BioMIRBackfill;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* BioMIRBackfillApp.swift */,
+				A20000000000000000000002 /* ImportFlowView.swift */,
+				I20000000000000000000001 /* ImportViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000004 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000003 /* Info.plist */,
+				A20000000000000000000004 /* BioMIRBackfill.entitlements */,
+				J20000000000000000000001 /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000005 /* BioMIRBackfillTests */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000005 /* ArchitectureBoundaryTests.swift */,
+				C20000000000000000000005 /* CSVParserTests.swift */,
+				C20000000000000000000006 /* SourceFingerprintTests.swift */,
+				C20000000000000000000007 /* CalendarIntervalTests.swift */,
+				D20000000000000000000004 /* MappingEngineTests.swift */,
+				D20000000000000000000005 /* HealthKitNutritionIdentifierCompatibilityTests.swift */,
+				E20000000000000000000004 /* HealthAuthorizationStateTests.swift */,
+				E20000000000000000000005 /* HealthStoreGatewayTests.swift */,
+				F20000000000000000000004 /* PreflightEngineTests.swift */,
+				G20000000000000000000005 /* AuditLedgerTests.swift */,
+				G20000000000000000000006 /* ImportCoordinatorTests.swift */,
+				H20000000000000000000004 /* VerificationEngineTests.swift */,
+				I20000000000000000000002 /* ImportViewModelTests.swift */,
+			);
+			path = BioMIRBackfillTests;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000008 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000006 /* BioMIRBackfill.app */,
+				A20000000000000000000007 /* BioMIRBackfillTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50000000000000000000001 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C50000000000000000000002 /* CSV */,
+				D50000000000000000000001 /* Mapping */,
+				E50000000000000000000001 /* HealthKit */,
+				F50000000000000000000001 /* Import */,
+				C50000000000000000000003 /* Audit */,
+				H50000000000000000000001 /* Verification */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C50000000000000000000002 /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				C20000000000000000000001 /* CSVModels.swift */,
+				C20000000000000000000002 /* CSVParser.swift */,
+				C20000000000000000000003 /* SourceDocumentService.swift */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		C50000000000000000000003 /* Audit */ = {
+			isa = PBXGroup;
+			children = (
+				C20000000000000000000004 /* SourceFingerprint.swift */,
+				F20000000000000000000003 /* ImportManifest.swift */,
+				G20000000000000000000001 /* ProvenanceService.swift */,
+				G20000000000000000000002 /* AuditLedger.swift */,
+				H20000000000000000000003 /* AuditExporter.swift */,
+			);
+			path = Audit;
+			sourceTree = "<group>";
+		};
+		D50000000000000000000001 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				D20000000000000000000001 /* MappingModels.swift */,
+				D20000000000000000000002 /* NutritionMappingRegistry.swift */,
+				D20000000000000000000003 /* MappingEngine.swift */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		E50000000000000000000001 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				E20000000000000000000001 /* HealthAuthorizationState.swift */,
+				E20000000000000000000002 /* HealthStoreGateway.swift */,
+				E20000000000000000000003 /* LiveHealthStoreGateway.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		F50000000000000000000001 /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				F20000000000000000000001 /* ImportModels.swift */,
+				F20000000000000000000002 /* PreflightEngine.swift */,
+				G20000000000000000000003 /* ImportJournal.swift */,
+				G20000000000000000000004 /* ImportCoordinator.swift */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		H50000000000000000000001 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				H20000000000000000000001 /* VerificationModels.swift */,
+				H20000000000000000000002 /* VerificationEngine.swift */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A70000000000000000000001 /* BioMIRBackfill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000002 /* Build configuration list for PBXNativeTarget "BioMIRBackfill" */;
+			buildPhases = (
+				A60000000000000000000001 /* Sources */,
+				A40000000000000000000001 /* Frameworks */,
+				A60000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioMIRBackfill;
+			productName = BioMIRBackfill;
+			productReference = A20000000000000000000006 /* BioMIRBackfill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A70000000000000000000002 /* BioMIRBackfillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000003 /* Build configuration list for PBXNativeTarget "BioMIRBackfillTests" */;
+			buildPhases = (
+				A60000000000000000000002 /* Sources */,
+				A40000000000000000000002 /* Frameworks */,
+				A60000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = BioMIRBackfillTests;
+			productName = BioMIRBackfillTests;
+			productReference = A20000000000000000000007 /* BioMIRBackfillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A70000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					A70000000000000000000002 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = A70000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXProject "BioMIRBackfill" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50000000000000000000001;
+			productRefGroup = A50000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A70000000000000000000001 /* BioMIRBackfill */,
+				A70000000000000000000002 /* BioMIRBackfillTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				J10000000000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* BioMIRBackfillApp.swift in Sources */,
+				A10000000000000000000002 /* ImportFlowView.swift in Sources */,
+				I10000000000000000000001 /* ImportViewModel.swift in Sources */,
+				C10000000000000000000001 /* CSVModels.swift in Sources */,
+				C10000000000000000000002 /* CSVParser.swift in Sources */,
+				C10000000000000000000003 /* SourceDocumentService.swift in Sources */,
+				C10000000000000000000004 /* SourceFingerprint.swift in Sources */,
+				D10000000000000000000001 /* MappingModels.swift in Sources */,
+				D10000000000000000000002 /* NutritionMappingRegistry.swift in Sources */,
+				D10000000000000000000003 /* MappingEngine.swift in Sources */,
+				E10000000000000000000001 /* HealthAuthorizationState.swift in Sources */,
+				E10000000000000000000002 /* HealthStoreGateway.swift in Sources */,
+				E10000000000000000000003 /* LiveHealthStoreGateway.swift in Sources */,
+				F10000000000000000000001 /* ImportModels.swift in Sources */,
+				F10000000000000000000002 /* PreflightEngine.swift in Sources */,
+				F10000000000000000000003 /* ImportManifest.swift in Sources */,
+				G10000000000000000000001 /* ProvenanceService.swift in Sources */,
+				G10000000000000000000002 /* AuditLedger.swift in Sources */,
+				G10000000000000000000003 /* ImportJournal.swift in Sources */,
+				G10000000000000000000004 /* ImportCoordinator.swift in Sources */,
+				H10000000000000000000001 /* VerificationModels.swift in Sources */,
+				H10000000000000000000002 /* VerificationEngine.swift in Sources */,
+				H10000000000000000000003 /* AuditExporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000003 /* ArchitectureBoundaryTests.swift in Sources */,
+				C10000000000000000000005 /* CSVParserTests.swift in Sources */,
+				C10000000000000000000006 /* SourceFingerprintTests.swift in Sources */,
+				C10000000000000000000007 /* CalendarIntervalTests.swift in Sources */,
+				D10000000000000000000004 /* MappingEngineTests.swift in Sources */,
+				D10000000000000000000005 /* HealthKitNutritionIdentifierCompatibilityTests.swift in Sources */,
+				E10000000000000000000004 /* HealthAuthorizationStateTests.swift in Sources */,
+				E10000000000000000000005 /* HealthStoreGatewayTests.swift in Sources */,
+				F10000000000000000000004 /* PreflightEngineTests.swift in Sources */,
+				G10000000000000000000005 /* AuditLedgerTests.swift in Sources */,
+				G10000000000000000000006 /* ImportCoordinatorTests.swift in Sources */,
+				H10000000000000000000004 /* VerificationEngineTests.swift in Sources */,
+				I10000000000000000000002 /* ImportViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A70000000000000000000001 /* BioMIRBackfill */;
+			targetProxy = A30000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B20000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BioMIRBackfill/Supporting/BioMIRBackfill.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BioMIRBackfill/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.biomir.backfill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BioMIRBackfill/Supporting/BioMIRBackfill.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BioMIRBackfill/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.biomir.backfill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B30000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.biomir.backfill.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioMIRBackfill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BioMIRBackfill";
+			};
+			name = Debug;
+		};
+		B30000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.biomir.backfill.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioMIRBackfill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BioMIRBackfill";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Build configuration list for PBXProject "BioMIRBackfill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10000000000000000000001 /* Debug */,
+				B10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000002 /* Build configuration list for PBXNativeTarget "BioMIRBackfill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20000000000000000000001 /* Debug */,
+				B20000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000003 /* Build configuration list for PBXNativeTarget "BioMIRBackfillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30000000000000000000001 /* Debug */,
+				B30000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000000000000000000001 /* Project object */;
+}

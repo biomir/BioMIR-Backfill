@@ -1,0 +1,41 @@
+source_column,healthkit_identifier,source_unit,health_unit,multiplier,transformation,status
+Dietary Calories (kCal),dietaryEnergyConsumed,kcal,kcal,1,direct,SUPPORTED
+Fat (g),dietaryFatTotal,g,g,1,direct,SUPPORTED
+Protein (g),dietaryProtein,g,g,1,direct,SUPPORTED
+Fiber (g),dietaryFiber,g,g,1,direct,SUPPORTED
+Sugar (g),dietarySugar,g,g,1,direct,SUPPORTED
+Saturated Fat (g),dietaryFatSaturated,g,g,1,direct,SUPPORTED
+Monounsat. Fat (g),dietaryFatMonounsaturated,g,g,1,direct,SUPPORTED
+Polyunsat. Fat (g),dietaryFatPolyunsaturated,g,g,1,direct,SUPPORTED
+Cholesterol (mg),dietaryCholesterol,mg,mg,1,direct,SUPPORTED
+Calcium (mg),dietaryCalcium,mg,mg,1,direct,SUPPORTED
+Iron (mg),dietaryIron,mg,mg,1,direct,SUPPORTED
+Magnesium (mg),dietaryMagnesium,mg,mg,1,direct,SUPPORTED
+Phosphorus (mg),dietaryPhosphorus,mg,mg,1,direct,SUPPORTED
+Potassium (mg),dietaryPotassium,mg,mg,1,direct,SUPPORTED
+Sodium (mg),dietarySodium,mg,mg,1,direct,SUPPORTED
+Zinc (mg),dietaryZinc,mg,mg,1,direct,SUPPORTED
+Copper (mg),dietaryCopper,mg,mg,1,direct,SUPPORTED
+Selenium (µg),dietarySelenium,µg,µg,1,direct,SUPPORTED
+Vitamin B9 [Folate] (µg),dietaryFolate,µg,µg,1,direct,SUPPORTED
+Vitamin A [Retinoid] (µg),dietaryVitaminA,µg,µg,1,direct,SUPPORTED
+Vitamin B1 [Thiamin] (mg),dietaryThiamin,mg,mg,1,direct,SUPPORTED
+Vitamin B2 [Riboflavin] (mg),dietaryRiboflavin,mg,mg,1,direct,SUPPORTED
+Vitamin B3 [Niacin] (mg),dietaryNiacin,mg,mg,1,direct,SUPPORTED
+Vitamin B5 [Panto. Acid] (mg),dietaryPantothenicAcid,mg,mg,1,direct,SUPPORTED
+Vitamin B6 [Pyridoxine] (mg),dietaryVitaminB6,mg,mg,1,direct,SUPPORTED
+Vitamin B12 [Cobalamin] (µg),dietaryVitaminB12,µg,µg,1,direct,SUPPORTED
+Vitamin C [Ascorbate] (mg),dietaryVitaminC,mg,mg,1,direct,SUPPORTED
+Vitamin D [Calciferol] (µg),dietaryVitaminD,µg,µg,1,direct,SUPPORTED
+Vitamin K [Phytonadion] (µg),dietaryVitaminK,µg,µg,1,direct,SUPPORTED
+Vitamin E [Tocopherol] (mg),dietaryVitaminE,mg,mg,1,direct,SUPPORTED
+Water Consumed (8oz-glass),dietaryWater,8 US fl oz glass,mL,236.5882365,unit conversion,SUPPORTED
+Net Carbs (g),,g,,,semantic mismatch with total carbohydrate,UNSUPPORTED
+Added Sugar (g),,g,,,no controlled v1 mapping,UNSUPPORTED
+Sugar Alcohols (g),,g,,,no controlled v1 mapping,UNSUPPORTED
+Starch (g),,g,,,no controlled v1 mapping,UNSUPPORTED
+Omega-3 Fat (g),,g,,,no controlled v1 mapping,UNSUPPORTED
+Omega-6 Fat (g),,g,,,no controlled v1 mapping,UNSUPPORTED
+Omega 6:3 Ratio,,ratio,,,derived ratio,UNSUPPORTED
+Glycemic Load,,unitless,,,derived/semantic mismatch,UNSUPPORTED
+Choline (mg),,mg,,,no controlled v1 mapping,UNSUPPORTED

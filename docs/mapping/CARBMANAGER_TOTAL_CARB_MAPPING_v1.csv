@@ -1,0 +1,2 @@
+profile_version,source_column,healthkit_identifier,source_unit,health_unit,transformation_id,transformation_version,semantic_basis
+carbmanager-total-carb-v1,Carb Manager Total Carbohydrates (g),dietaryCarbohydrates,g,g,carbmanager-total-carb-reconstruction-v1,v1,"Total Carbs = Net Carbs + Fiber + Sugar Alcohols + Allulose; reconstructed from Carb Manager macronutrients report"
